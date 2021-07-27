@@ -12,7 +12,7 @@ Layout as follows:
 ```
 ~/pico/pico-sdk/
 ~/pico/pico-extras/
-~/pico/sleepdemo/
+~/pico/picosleeprtc/
 ```
 
 Create a new build dir inside this repo:
@@ -54,3 +54,5 @@ continue
 ```
 
 In the minicom terminal window you should see debug output and the led should blink on and off each minute.
+
+For more details, such as wiring instructions please see this [post](https://ghubcoder.github.io/posts/waking-the-pico-external-trigger/).
